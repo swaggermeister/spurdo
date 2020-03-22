@@ -67,7 +67,7 @@ class Spurdo
     REPLACEMENTS.each do |filter|
       from = filter[0]
       to = filter[1]
-      string = string.gsub(from, to)
+      string = string.gsub(/#{from}/i, to)
     end
 
     # append Spurdo smile if not found
