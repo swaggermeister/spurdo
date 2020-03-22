@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require "../lib/spurdo.rb"
+require "spurdo"
 
 describe Spurdo do
   it "recites the preamble to the US Constitution" do
