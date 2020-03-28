@@ -12,5 +12,5 @@ rvm:
   - 2.5.0
   - 2.6.0
   - 2.7.0
-#before_install:
-# - gem install bundler -v '< 2'
+before_install:
+  - gem install bundler -v '>= 2'
