@@ -3,18 +3,12 @@ cache: bundler
 matrix:
   fast_finish: true
 rvm:
-  # - 1.9.3
-  # - 2.0.0
-  # - 2.1.0
+  - 1.9.3
+  - 2.0.0
+  - 2.1.0
   - 2.2.0
   - 2.3.0
-  # - 2.4.0
-  # - 2.5.0
-  # - 2.6.0
-  # - 2.7.0
-before_install:
-  # - gem install bundler -v '< 2'
-  # - gem update --system
-  # - gem install bundler
-  # - gem update --system --conservative || (gem i "rubygems-update:~>2.7" --no-document && update_rubygems)
-  # - gem update bundler --conservative
+  - 2.4.0
+  - 2.5.0
+  - 2.6.0
+  - 2.7.0
