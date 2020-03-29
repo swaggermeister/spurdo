@@ -14,4 +14,6 @@ rvm:
   # - 2.7.0
 before_install:
   # - gem install bundler -v '< 2'
-  - gem update --system
+  # - gem update --system
+  - gem update --system --conservative || (gem i "rubygems-update:~>2.7" --no-document && update_rubygems)
+  - gem update bundler --conservative
